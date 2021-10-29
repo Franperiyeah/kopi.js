@@ -2,7 +2,7 @@
   "name": "kopi-js",
 	"displayName": "Kopi.js",
 	"description": "",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"publisher": "FranRuizSantaclara",
     "repository": {
         "type": "git",
@@ -23,13 +23,13 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:kopi-js.helloWorld"
+        "onCommand:extension.kopi"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [{
-            "command": "kopi-js.helloWorld",
-            "title": "Kopi.js"
+            "command": "extension.kopi",
+            "title": "Run kopi"
 
 		}]
 	},
